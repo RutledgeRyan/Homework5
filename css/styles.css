@@ -1,0 +1,153 @@
+body {
+  background-color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+body h1 {
+  color: white;
+}
+body p {
+  color: white;
+}
+body .form-wrapper {
+  background-color: beige;
+  width: 70%;
+  border: 4px dashed aqua;
+  margin: 0 auto;
+  text-align: center;
+}
+body .form-wrapper .input-wrapper {
+  margin: 20px auto;
+  background-color: aqua;
+  width: 50%;
+  position: relative;
+}
+body .form-wrapper .input-wrapper .text-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body .form-wrapper .input-wrapper .text-field:focus {
+  border: 2px solid aqua;
+}
+body .form-wrapper .input-wrapper .icon {
+  position: absolute;
+  right: 20px;
+  top: 11px;
+  color: red;
+}
+body .form-wrapper .name-input-wrapper {
+  margin: 20px auto;
+  background-color: aqua;
+  width: 50%;
+  position: relative;
+}
+body .form-wrapper .name-input-wrapper .name-text-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body .form-wrapper .name-input-wrapper .name-text-field:focus {
+  border: 2px solid aqua;
+}
+body .form-wrapper .name-input-wrapper .icon {
+  position: absolute;
+  right: 20px;
+  top: 11px;
+  color: gold;
+}
+body .form-wrapper .phone-input-wrapper {
+  margin: 20px auto;
+  background-color: aqua;
+  width: 50%;
+  position: relative;
+}
+body .form-wrapper .phone-input-wrapper .phone-text-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body .form-wrapper .phone-input-wrapper .phone-text-field:focus {
+  border: 2px solid orchid;
+}
+body .form-wrapper .phone-input-wrapper .icon {
+  position: absolute;
+  right: 20px;
+  top: 11px;
+  color: black;
+}
+body .form-wrapper .email-input-wrapper {
+  margin: 20px auto;
+  background-color: aqua;
+  width: 50%;
+  position: relative;
+}
+body .form-wrapper .email-input-wrapper .email-text-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body .form-wrapper .email-input-wrapper .email-text-field:focus {
+  border: 2px solid coral;
+}
+body .form-wrapper .email-input-wrapper .icon {
+  position: absolute;
+  right: 20px;
+  top: 11px;
+  color: pink;
+}
+body .form-wrapper .birthday-input-wrapper {
+  margin: 20px auto;
+  background-color: blue;
+  width: 50%;
+  position: relative;
+}
+body .form-wrapper .birthday-input-wrapper .birthday-text-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body .form-wrapper .birthday-input-wrapper .birthday-text-field:focus {
+  border: 2px solid blue;
+}
+body .form-wrapper .birthday-input-wrapper .icon {
+  position: absolute;
+  right: 40px;
+  top: 11px;
+  color: blue;
+}
+body .form-wrapper button {
+  min-width: 100px;
+  color: white;
+  background-color: red;
+  margin-bottom: 30px;
+  border-radius: 10%;
+}
+
+@media (max-width: 700px) {
+  body .form-wrapper .input-wrapper {
+    width: 80%;
+  }
+  body .form-wrapper .birthday-input-wrapper {
+    width: 80%;
+  }
+  body .form-wrapper .name-input-wrapper {
+    width: 80%;
+  }
+  body .form-wrapper .phone-input-wrapper {
+    width: 80%;
+  }
+  body .form-wrapper .email-input-wrapper {
+    width: 80%;
+  }
+}
